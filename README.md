@@ -13,18 +13,22 @@ A face recognition app made using react, django and deepface
    
 2. Install node.js:
    https://nodejs.org/en/download/current
+   or
+   ```bash
+   sudo apt install nodejs
+   ````
    
-3. Install the required packages
+4. Install the required packages
     ```` bash
    pip install -r requirements.txt
    ````
 
-4. Start the client-side server:
+5. Start the client-side server:
     ```` bash
     cd website/face-findr
     npm run dev
    ````
-5. Start the server-side server:
+6. Start the server-side server:
     ```` bash
     cd backend
     python manage.py runserver
